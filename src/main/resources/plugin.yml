@@ -1,0 +1,19 @@
+name: GMonture
+main: fr.aang.gmonture.Main
+version: 1.0
+depend: [ ProtocolLib, Multiverse-Core ]
+author: [Aang]
+api-version: 1.19
+permissions:
+  gmonture.reload:
+    description: Reload permission
+    default: op
+  gmonture.shop:
+    description: Shop permission
+    default: op
+  gmonture.inventory:
+    description: Opening inventory permission
+    default: op
+commands:
+  monture:
+    description: Gere les commandes du plugin GMonture

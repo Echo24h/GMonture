@@ -1,0 +1,66 @@
+
+# Permissions:
+# gmonture.reload : Permet le reload
+# gmonture.shop   : Permet l'ouverture du shop
+# gmonture.inventory : Permet l'ouverture de l'inventaire
+
+# Mondes ont les montures sont indisponibles
+disable_worlds:
+  - 'world_arene'
+
+# Délais d'attente après la mort, en secondes
+dead_delay: 60
+
+# Les montures dans le menu Monture et le menu Shop
+# entity: type d'entité de la monture
+# name: nom de la monture
+# perm: permission necessaire pour l'achat de la monture
+# price: prix d'achat de la monture
+# slot: slot dans le shop (0 à 7)
+# icon: Défini l'icon dans la boutique
+montures:
+  '0':
+    entity: 'PIG'
+    slot: 3
+    name: 'Cochon'
+    perm: 'grade.default'
+    price: 30000
+    icon: 'PIG_SPAWN_EGG'
+    speed: 1
+    jump: 2
+  '1':
+    entity: 'OCELOT'
+    slot: 4
+    name: 'Ocelot'
+    perm: 'grade.fer1'
+    price: 100000
+    icon: 'OCELOT_SPAWN_EGG'
+    speed: 2
+    jump: 2
+  '2':
+    entity: 'PHANTOM'
+    slot: 5
+    name: "Fantôme"
+    perm: 'grade.diam1'
+    price: 1000000
+    icon: 'PHANTOM_SPAWN_EGG'
+    speed: 2
+    fly: true
+
+messages:
+
+  # ERROR
+  permission: "§e[⚐] §cVous devez avoir un grade plus élever"
+  # Si la monture est désactivée
+  disable: "§e[⚐] §cDésactivé dans ce monde"
+  # Si la monture est morte {time} pour afficher le temps restant
+  dead: "§e[⚐] §cVotre monture est bléssée"
+  # Si il n'y à pas assez de place pour appeler la monture
+  no_place: "§e[⚐] §cPas assez de place"
+  # No money
+  money: "§c[⛃] §cVous n'avez pas assez d'argent"
+
+  # SUCCESS
+  # {name}, {price}
+  buy: "§d[◎] §aVous avez acheter §e{name} §a pour §6{price}⛃"
+
