@@ -3,9 +3,9 @@ Plugin Minecraft pour le serveur EcoCraft qui ajoute des montures et contrôle p
 
 <p align="center" display="flex">
 
-<img src="https://github.com/gborneGit/gborneGit/blob/main/gmonture_capture_2.png" height="400"/>
+<img src="https://github.com/gborneGit/gborneGit/blob/main/gmonture_capture_2.png" height="250"/>
 
-<img src="https://github.com/gborneGit/gborneGit/blob/main/gmonture_capture_1.png" height="400"/>
+<img src="https://github.com/gborneGit/gborneGit/blob/main/gmonture_capture_1.png" height="250"/>
 
 </p>
 
