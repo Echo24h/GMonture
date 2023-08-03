@@ -1,16 +1,16 @@
 # Plugin Minecraft pour EcoCraft : Ajout de montures avec contrôle par les flèches du clavier
 
 <p align="center">
-<img src="https://github.com/gborneGit/gborneGit/blob/main/EcoCraft_logo_transparent.png" width="100"/>
+<img src="https://github.com/Echo24h/Echo24h/blob/main/EcoCraft_logo_transparent.png" width="100"/>
 </p>
 
 Ce plugin Minecraft a été créé pour le serveur EcoCraft. Il ajoute des montures au jeu et permet de les contrôler à l'aide des flèches du clavier. Le plugin est entièrement configurable grâce au fichier de configuration fourni, qui permet de modifier les prix dans la boutique, les statistiques des montures, les permissions nécessaires pour l'achat, etc.
 
 <p align="center" display="flex">
 
-<img src="https://github.com/gborneGit/gborneGit/blob/main/gmonture_capture_2.png" height="250"/>
+<img src="https://github.com/Echo24h/Echo24h/blob/main/gmonture_capture_2.png" height="250"/>
 
-<img src="https://github.com/gborneGit/gborneGit/blob/main/gmonture_capture_1.png" height="250"/>
+<img src="https://github.com/Echo24h/Echo24h/blob/main/gmonture_capture_1.png" height="250"/>
 
 </p>
 
